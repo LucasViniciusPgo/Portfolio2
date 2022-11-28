@@ -1,0 +1,145 @@
+.image-blur {
+	filter:blur(5px);
+	position:fixed;
+	opacity:0.5;
+}
+
+nav {
+	background-image:linear-gradient(-45deg, #006600, #00CC00);
+	box-shadow:0px 10px 24px #000000;
+	font-family: 'Mali', bold;
+	text-decoration:none;
+}
+
+li {
+	background-color:#00CC00;
+	margin:10px;
+	box-shadow:8px 8px 8px #009900;
+	font-family: 'Mali', bold;
+	text-decoration:none;
+}
+
+#botao-navbar{
+	box-shadow:0px 10px 24px #00CC00;
+	padding:1em;
+	margin:0.5em;
+}
+
+#fonte-navbar{
+	padding:0px;
+	color:#FFFFFF;
+	text-decoration:none; 
+}
+
+.imagem_galeria{
+	width:55%;
+	border-width:20px 20px 20px 20px;
+	border-color:#ffffff;
+	border-style:solid;
+	margin:10px;
+	
+}
+
+.titulo{
+	text-decoration:bold;
+	font-family:'Mali', cursive;
+	font-size:2em;
+	margin:55px;
+	transform:rotate(-2deg);
+}
+
+.texto{
+	text-decoration:bold;
+	font-family:'Mali', cursive;
+	font-size:1.5em;
+}
+
+.trator{
+	width:40%;
+	transform:rotate(10deg);
+}
+
+.colheitadeira{
+	width:50%;
+	transform:rotate(-7deg);
+}
+
+.fundo-verde{
+background-color: #C6FFCA
+}
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    max-width: 500px;
+}
+ 
+h1 {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: #ffffff;
+
+}
+ 
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: #179b2f;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    background-color: #59c66b;
+    color: #179b2f;
+    font-weight: bold;
+}
+ 
+.submit input {
+    background-color: #59c66b;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 360px;
+    -moz-border-radius: 360px;
+    border: 1px solid;
+    color: black;
+	cursor:pointer;
+}
+ 
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+ 
+form label {
+    margin-left: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar-corner {
+	    background-color: #137300;
+}
+::-webkit-scrollbar-track {
+    background-color: #1EB300;
+}
+::-webkit-scrollbar {
+    width: 6px;
+	height:6px;
+    background-color: #1EB300;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #137300;
+}
+
+::-webkit-scrollbar-corner {
+	    background-color: #137300;
+}
+

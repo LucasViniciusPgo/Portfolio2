@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+
+    <!--Javascripts do Bootstrap-->
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/popper.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body>
+    
+    <div class="menu">
+        <a href="#certificado">Certificados</a>
+        <button class="dropdown-btn">Dropdown ⇩
+            <i class=></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#primeiro">Projeto 1 - HTML,CSS,javascript</a>
+            <a href="#Segundo">Projeto 2 - C#</a>
+            <a href="#terceiro">Projeto 3 - Python</a>
+        </div>
+        <a href="#ha">Habilidades</a>
+    </div>
+
+    <h1 class="header">Portfolio</h1>
+    <section class="principal">
+        <img class="circular--square" src="./img/eu.jpg" />
+        <p class="texto">Meu nome é Lucas Vinicius, tenho 20 e atualmente no 4° semestre do curso ADS da FATEC Sorocaba.
+            Sou técnico em informática formado na ETEC Fernando Prestes. Possuo experiência em HTML e CSS, e
+            linguagens como:
+            javascript, python e c#
+        </p>
+    </section>
+
+    <h1 class="titulo" id="certificado">Certificados</h1>
+    <!-- Carousel wrapper -->
+    <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+        <!-- Inner -->
+        <div class="carousel-inner py-4">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4" style="padding-left: 10px; padding-right: 58px;">
+                            <div class="card" style="width: 120%;">
+                                <img src="./img/c1.png" class="card-img-top" alt="Waterfall" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Git e GitHub</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block" style="padding-left: 10px; padding-right: 58px;">
+                            <div class="card" style="width: 120%;">
+                                <img src="./img/c3.png" class="card-img-top" alt="Sunset Over the Sea" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Introdução front-end</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block" style="padding-left: 10px; padding-right: 58px;">
+                            <div class="card" style="width: 120%;">
+                                <img src="./img/c2.png" class="card-img-top" alt="Sunset over the Sea" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Python automação de planilhas</h5>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-none d-lg-block" style="padding-left: 10px; padding-right: 58px; padding-top: 10px;">
+                            <div class="card" style="width: 120%;">
+                                <img src="./img/etec.png" class="card-img-top" alt="Sunset over the Sea" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso técnico informática</h5>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="titulo" id="trabalhos">Projetos</h1>
+    <section id="primeiro">
+        <div class="container2">
+            <div class="card-container">
+                <a href="./proj/Filmes.zip" download="filmes.zip" type="application/zip">
+                    <div class="card2">
+                        <div class="card-wrapper">
+                            <h3>
+                                Projeto 1
+                            </h3>
+
+                        </div>
+                    </div>
+                </a>
+                <div class="card-text">
+                    Projeto Filmes HTML,CSS e javascript
+                    <br>
+                    clique no <i style="color: yellow; font-weight: bold;">projeto 1</i> para fazer o download
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Segundo">
+        <div class="container2">
+            <div class="card-container">
+                <a href="./proj/Portfolio.zip" download="menu.zip" type="application/zip">
+                    <div class="card2">
+                        <div class="card-wrapper">
+                            <h3>
+                                Projeto 2
+                            </h3>
+
+                        </div>
+                    </div>
+                </a>
+                <div class="card-text">
+                    Portfolio de todos os projetos C#
+                    <br>
+                    clique no <i style="color: yellow; font-weight: bold;">projeto 2</i> para fazer o download
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="terceiro">
+        <div class="container2">
+            <div class="card-container">
+                <a href="./proj/Curso RPA.zip" download="python.zip" type="application/zip">
+                    <div class="card2">
+                        <div class="card-wrapper">
+                            <h3>
+                                Projeto 3
+                            </h3>
+
+                        </div>
+                    </div>
+                </a>
+                <div class="card-text">
+                    Projetos Python integrado com Excel
+                    <br>
+                    clique no <i style="color: yellow; font-weight: bold;">projeto 3</i> para fazer o download
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="titulo" id="ha">Habilidades</h1>
+    <div class="container3">
+        <div class="cards3">
+            <div class="img">
+                <img style="width: 100%;" src="./img/py.png">
+            </div>
+            <h3>Python</h3>
+            <div class="content1">
+            </div>
+        </div>
+        <div class="cards3">
+            <div class="img">
+                <img style="width: 100%;" src="./img/script.png">
+            </div>
+            <h3>javascript</h3>
+            <div class="content1">
+            </div>
+        </div>
+        <div class="cards3">
+            <div class="img">
+                <img style="width: 95%;" src="./img/html.png">
+            </div>
+            <h3>HTML & CSS</h3>
+            <div class="content1">
+            </div>
+        </div>
+        <div class="cards3">
+            <div class="img">
+                <img style="width: 100%;" src="./img/csharp.png">
+            </div>
+            <h3>C#</h3>
+            <div class="content1">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Author: Lucas Vinicius<br>
+        <p>Email: lucasvinicius.pgo@outlook.com</p>
+
+        <a href="https://github.com/LucasViniciusPgo">
+            <img width="50px" src="./img/git.png"></a>
+
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
